@@ -1,0 +1,16 @@
+@charset "UTF8";
+
+body{background-color: lightblue;}
+    h1{
+        background-color: rgb(92, 184, 245);
+        text-align: center;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      h2{
+        background-color: rgb(148, 213, 243);
+        font-size: 20px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      p{text-align: justify;}

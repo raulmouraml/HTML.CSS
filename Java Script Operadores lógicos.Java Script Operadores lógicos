@@ -1,0 +1,49 @@
+Java Script Operadores.
+
+Operadores aritiméticos:
++ = Adição
+- = Subtração
+* = Multiplicação
+/ = Divisão
+% = Resto da divisão
+** = Potência
+
+Ordem de precedência dos operadores:(Qual conta será realizada primeiro em uma expressão)
+1º () -> Parêntese
+2º ** -> Potência
+3º * / % -> Multiplicação, divisão e resto da divisão 
+4º + - -> Adição e subtração 
+
+Operadores de incremento
+X++ é igual á X=X+1
+X-- é igual á X=X--
++= Recebe o valor da variável e acrescenta algo a mais
+Ex: va n =3
+    n += 2
+Resultado: 5 (Ele pegou o valor de n que é 3 e soma mais dois)
+    
+Operadores relacionais
+>  Maior que
+<  Menor que
+>= Maior ou igual
+<= Menor ou igual
+== Igual
+=== Igualdade (Idêntico) Verifica também se são de tipos de variáveis iguais
+!= Diferente
+!== Diferente (Desigual restrito) Verifica também se são de tipos de variáveis diferentes
+
+Operadores lógicos.
+! = negação
+&& = E
+|| = OU
+
+Ordem de precedência 1º ! - 2º && - 3º || 
+
+Operador ternário:
+Ele junta 3 blocos para um único resultador
+Ex: teste ? true : false (Primeiro campo é o teste e os outros dois é o que acontesera se o teste for verdadeiro ou falso)
+Ex:
+ media=5.5
+> media >= 6 ? "Aprovado" : "Reprovado" (Se a média for maior ou igual a 6 o aluno será aprovado caso contrário será reprovado)
+'Reprovado'
+

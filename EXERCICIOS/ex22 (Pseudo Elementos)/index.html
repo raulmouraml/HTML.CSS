@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudos elementos</title>
+    <style>
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bolder ;
+}
+
+a:visited{ color: black;}
+a:active{color:green;}
+a::after{
+    content: '[Link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+a::before{
+    content: '↗'
+}
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://ge.globo.com/">Globo Esporte</a></li>
+        <li><a href="https://g1.globo.com/?utm_source=barraGCOM">G1</a></li>
+        <li><a href="https://www.globo.com/">Globo</a></li>
+    </ul>
+</body>
+</html>

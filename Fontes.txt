@@ -1,0 +1,33 @@
+Fontes:
+font-family
+font-family = Tipo da fonte
+Ex: font-family: 'Courier New', Courier, monospace;
+
+color
+color = Cor da fonte.
+Ex: color: white;
+
+text-align
+text-align= Alinhamento do texto
+Ex: text-align: center;
+
+
+Estado do texto (Sublinhado, pontilhado, etc)
+text-decoration
+EX: text-decoration: none; 
+
+font-size
+font-size = Tamanho da fonte
+Ex: font-size: 1.2em;
+
+font-weight
+font-weight = Peso da fonte (Tonalidade da fonte "Mais forte ou mais fraco).
+font-weight: bold; (Ativa negrito na fonte)
+
+text-indent
+text-indent: Espaçamento do texto antes de começar um novo parágrafo.
+Ex: text-indent: 30px;
+
+line-height
+line-height: Espaçãmento vertical entre as linhas do texto.
+Ex:line-height: 1.7em;

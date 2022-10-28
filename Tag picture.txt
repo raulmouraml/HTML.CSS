@@ -1,0 +1,6 @@
+Tag picture
+
+<picture>
+    <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg"> Quando a largura da tela estiver até 600px de lagura ele vai carregar essa primeira imagem
+    <img src="imagens/irina-blok.jpg" alt="Irina blok, criadora do Bugdroid"> Quando a largura da tela estiver maior 600px de lagura ele vai carregar essa segunda imagem
+</picture>

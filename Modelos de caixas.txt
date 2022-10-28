@@ -1,0 +1,49 @@
+Modelos de caixa.
+Box level= A caixa ocupa a linha inteira. Uma nova caixa só pode ser criada na linha de baixo.
+In line Level= Uma segunda caixa pode ser criada na mesma linha.
+hight= Altura
+widthHe = Largura
+
+--border = Borda--
+border-width: Largura da borda
+border-style: Tipo da borda
+border-color: Cor da borda
+shorthand Ex:10px solid blue; (largura - tipo - cor)
+
+----Largura da caixa-----
+min-width:300px; = Largura mínima da caixa
+max-width: 1000px; = Largura máxima da caixa
+min-height: 150px; = Tamanho mínimo da caixa
+margin: auto; = A a caixa se regula automaticamente no centro da tela. 
+text-align: center; Alinha o texto ao centro o texto dentro da ciaxa. 
+
+
+--padding = Acolchoamento interno da caixa--
+padding-top = Acolchoamento a cima
+padding-right = Acolchoamento a direita
+padding-bottom = Acolchoamento abaixo
+padding-left = Acolchoamento a esquerda
+shorthand Ex: padding: 10px 10px 10px 10px (Em cima - direita - em baixo - Esquerda)          
+
+--margin = Acolchoamento externo da caixa.--
+margin-top = Acolchoamento a cima
+margin-right = Acolchoamento a direita
+margin-bottom = Acolchoamento abaixo
+margin-left = Acolchoamento a esquerda
+shorthand Ex: margin: 10px 10px 10px 10px (Em cima - direita - em baixo - Esquerda)
+
+
+outline = Contorno do acolchoamento da Margin
+
+-----------------------------box-shadow = Sombra da caixa -------------------------------------------
+Sombra externa
+ex:
+box-shadow:6px 3px 5px 2x black; (Deslocamento horizontal - Delocamento vertical - Espalhamento - Embaçamento - cor da sombra)
+Sobra interna
+ex:
+box-shadow: inset 6px 3px 2px 2px black; (Deslocamento horizontal - Delocamento vertical - Espalhamento - Embaçamento - cor da sombra)
+
+-------------------------------Degrade na caixa----------------------------------------------------
+background-image: linear-gradient(to right, blue, transparent);
+
+

@@ -1,0 +1,3 @@
+Degrade.
+Usar a Tag background-image.
+Ex:background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
